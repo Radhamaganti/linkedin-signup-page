@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+.navbar{
+    background-color: aquamarine;
+
+}
+.nav-item .nav-link{
+    color: white !important;
+    font-weight: bold;
+    font-size:20px;
+}
+.bgimg{
+    background-image: url('https://img.freepik.com/free-photo/veggies-bio-bags-healthy-relaxed-mind_23-2148677973.jpg?t=st=1717132037~exp=1717135637~hmac=ee78cd8b8e803bafce50c7eab0dc81a3ab81bf2ebbeb156554d191be67735404&w=996');
+    background-size: cover;
+    width:99vw;
+    height:70vh;
+    background-position: center;
+}
+.head1{
+    font-weight: bold;
+    color:rgb(80, 112, 80);
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+.one{
+    width:30%;
+    font-size: 20px;
+    text-align: center;
+}
+.para{
+    color:rgb(210, 30, 189);
+    text-align: center;
+    margin-top: -1%;
+    margin-left:5%;
+}
+.head2{
+    color: green;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.imageries{
+    width:100%;
+    aspect-ration:3/2;
+    object-fit: cover;
+    
+}
+/*payment*/
+.zero{
+    background-color:brown;
+    color: white;
+    font-size: 25px;
+    width:50%;
+}
+.fa-cc-mastercard{
+    background-color: #189cdf;
+    font-size:30px ;
+}
+@media screen  and (max-width: 768px){
+    .adjust{
+        margin-top: -5%;
+    }
+};
+@media screen  and (min-width: 768px){
+    .adjust{
+        margin-top: 5%;
+    }
+};
+/*contact*/
+.input-group-text{
+    background-color: forestgreen;
+    color: white;
+    font-size: 20px;
+}
+.fa-address-book{
+    background-color: green;
+    font-size: 20px;
+}
+/*footer*/
+.bgimg5{
+    background-color: #d69ca5;
+}
+.ftext{
+    color: white;
+    text-decoration: underline yellow;
+    font-size: 45px;
+}
+.last li{
+    color:white;
+    font-weight: lighter;
+}
+.fa-linkedin{
+    font-size: 30px;
+    padding-left:2%;
+    color:blue;
+}
+.fa-youtube{
+    font-size: 30px;
+    padding-left:2%;
+    color:red;
+}
+.fa-facebook{
+    font-size: 30px;
+    padding-left:2%;
+    color:blue;
+}
+.fa-square-snapchat{
+    font-size: 30px;
+    padding-left:2%;
+    color:yellow;
+}
+.fa-square-instagram{
+    font-size: 30px;
+    padding-left:2%;
+    color:rgb(226, 43, 165);
+}
+.fa-arrow-up{
+  color:green;
+  font-size: 30px;  
+  border:1px solid gold;
+  background-color: gold;
+  float: right;
+  margin-top: -4%;
+  margin-right: 6%;
+}
